@@ -38,3 +38,13 @@ msgstr "Встановити дату початку на зараз"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_calendar.res_config_settings_view_form
 msgid "Time Connecting"
 msgstr "Час підключення"
+
+#. module: hr_timesheet_calendar
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_calendar.res_config_settings_view_form
+msgid "Start the next entry now or without a gap to the previous one."
+msgstr "Почати наступний запис зараз або без проміжку після попереднього."
+
+#. module: hr_timesheet_calendar
+#: model:ir.model.fields,field_description:hr_timesheet_calendar.field_res_config_settings__timesheet_alignment
+msgid "Timesheet Alignment"
+msgstr "Вирівнювання табелів часу"

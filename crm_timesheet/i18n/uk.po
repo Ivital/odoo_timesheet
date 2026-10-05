@@ -54,3 +54,8 @@ msgstr "Почати роботу"
 #: model_terms:ir.ui.view,arch_db:crm_timesheet.view_crm_lead_kanban
 msgid "Stop work"
 msgstr "Зупинити роботу"
+
+#. module: crm_timesheet
+#: model:ir.model.fields,field_description:crm_timesheet.field_crm_lead__show_time_control
+msgid "Show Time Control"
+msgstr "Показувати контроль часу"

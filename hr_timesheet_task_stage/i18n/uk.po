@@ -27,3 +27,13 @@ msgstr "Згорнуто в Kanban"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_tree
 msgid "Open task"
 msgstr "Відкрити завдання"
+
+#. module: hr_timesheet_task_stage
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_form
+msgid "<span class=\"text-danger\">Closed</span>"
+msgstr "<span class=\"text-danger\">Закрито</span>"
+
+#. module: hr_timesheet_task_stage
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_form
+msgid "<span class=\"text-success\">Open</span>"
+msgstr "<span class=\"text-success\">Відкрито</span>"

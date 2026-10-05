@@ -18,3 +18,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_timesheet_sheet_autodraft.field_res_config_settings__timesheet_sheets_autodraft
 msgid "Timesheet Sheets Auto-draft"
 msgstr "Авточернетка аркушів табеля часу"
+
+#. module: hr_timesheet_sheet_autodraft
+#: model:ir.actions.server,name:hr_timesheet_sheet_autodraft.action_autodraft_timesheet_sheets
+msgid "Auto-draft Timesheet Sheet(s)"
+msgstr "Автоматично створювати чернетки табелів"
+
+#. module: hr_timesheet_sheet_autodraft
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_autodraft.res_config_settings_view_form
+msgid ""
+"Auto-draft timesheet when an entry is created and no sheet covering this "
+"period exists"
+msgstr ""
+"Автоматично створювати чернетку табеля часу, якщо запис створено, а аркуша "
+"за цей період немає"

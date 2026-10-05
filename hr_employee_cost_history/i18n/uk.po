@@ -104,3 +104,18 @@ msgstr "Оновити"
 #: model_terms:ir.ui.view,arch_db:hr_employee_cost_history.hr_employee_timesheet_cost_wizard_view_form
 msgid "Update Timesheet Cost"
 msgstr "Оновити собівартість табеля часу"
+
+#. module: hr_employee_cost_history
+#: model_terms:ir.ui.view,arch_db:hr_employee_cost_history.hr_timesheet_retroactive_cost_view_employee_form_inherit
+msgid "<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/> Update Cost"
+msgstr "<i class=\"fa fa-fw o_button_icon fa-arrow-right\"/> Оновити вартість"
+
+#. module: hr_employee_cost_history
+#: model_terms:ir.ui.view,arch_db:hr_employee_cost_history.hr_timesheet_retroactive_cost_view_employee_form_inherit
+msgid "<i class=\"fa fa-fw o_button_icon fa-history\"/> Cost History"
+msgstr "<i class=\"fa fa-fw o_button_icon fa-history\"/> Історія вартості"
+
+#. module: hr_employee_cost_history
+#: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee__timesheet_cost_history_ids
+msgid "Timesheet Cost History"
+msgstr "Історія вартості табелів"

@@ -358,3 +358,30 @@ msgstr "відтоді"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
 msgid "until"
 msgstr "до"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "<span>Date Range:</span>"
+msgstr "<span>Діапазон дат:</span>"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "<span>Timesheets Report</span>"
+msgstr "<span>Звіт за табелями</span>"
+
+#. module: hr_timesheet_report
+#: model:ir.model.constraint,message:hr_timesheet_report.constraint_hr_timesheet_report_field_entry_field_name_uniq
+#: model:ir.model.constraint,message:hr_timesheet_report.constraint_hr_timesheet_report_field_field_name_uniq
+#: model:ir.model.constraint,message:hr_timesheet_report.constraint_hr_timesheet_report_field_groupby_field_name_uniq
+msgid "Field can be reported only once!"
+msgstr "Поле можна включити до звіту лише один раз!"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard__has_line_ids
+msgid "Has lines (technical)"
+msgstr "Має рядки (технічне)"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "selected entries"
+msgstr "вибрані записи"

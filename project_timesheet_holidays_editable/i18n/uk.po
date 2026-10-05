@@ -27,3 +27,8 @@ msgstr "Немає"
 #: model:ir.model.fields.selection,name:project_timesheet_holidays_editable.selection__hr_leave_type__timesheet_edit_level__approver
 msgid "Officer"
 msgstr "Відповідальна особа"
+
+#. module: project_timesheet_holidays_editable
+#: model:ir.model.fields,field_description:project_timesheet_holidays_editable.field_hr_leave_type__timesheet_edit_level
+msgid "Timesheet Edit Level"
+msgstr "Рівень редагування табеля часу"

@@ -54,3 +54,13 @@ msgstr "Кількість відвідувань"
 #: model:ir.model.fields,field_description:hr_timesheet_sheet_attendance.field_hr_timesheet_sheet__attendance_state
 msgid "Current Status"
 msgstr "Поточний статус"
+
+#. module: hr_timesheet_sheet_attendance
+#: model:ir.actions.act_window,name:hr_timesheet_sheet_attendance.hr_timesheet_sheet_action_sheet_activities
+msgid "Timesheet Activities"
+msgstr "Активності табеля часу"
+
+#. module: hr_timesheet_sheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_attendance.field_hr_timesheet_sheet__total_attendance
+msgid "Total Attendance"
+msgstr "Загальна відвідуваність"

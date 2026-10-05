@@ -27,3 +27,13 @@ msgstr "Табелі"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_name_customer.report_timesheet_custom
 msgid "for the"
 msgstr "для"
+
+#. module: hr_timesheet_name_customer
+#: model:ir.model.fields,field_description:hr_timesheet_name_customer.field_account_analytic_line__name_customer
+msgid "Customer Description"
+msgstr "Опис клієнта"
+
+#. module: hr_timesheet_name_customer
+#: model:ir.actions.report,name:hr_timesheet_name_customer.timesheet_report_name_custom
+msgid "Timesheet Customer"
+msgstr "Клієнт табеля часу"

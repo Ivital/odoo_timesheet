@@ -89,3 +89,38 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_warning.view_hr_timesheet_sheet_filter
 msgid "With Warnings"
 msgstr "З попередженнями"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__warning_domain
+msgid "Applicable Domain"
+msgstr "Застосовний домен"
+
+#. module: hr_timesheet_sheet_warning
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_warning.hr_timesheet_sheet_form
+msgid "Generate Warnings"
+msgstr "Створити попередження"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet__hr_timesheet_sheet_warning_item_ids
+msgid "Hr Timesheet Sheet Warning Item"
+msgstr "Елемент попередження табеля HR"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.actions.act_window,name:hr_timesheet_sheet_warning.hr_timesheet_sheet_warning_definition_action
+msgid "Timesheet Warning Definitions"
+msgstr "Визначення попереджень табеля"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_item__warning_definition_id
+msgid "Warning Definition"
+msgstr "Визначення попередження"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__python_code
+msgid "Warning Expression"
+msgstr "Вираз попередження"
+
+#. module: hr_timesheet_sheet_warning
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_warning.view_hr_timesheet_sheet_filter
+msgid "Without Warnings"
+msgstr "Без попереджень"

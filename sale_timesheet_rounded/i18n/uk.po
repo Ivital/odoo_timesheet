@@ -53,3 +53,32 @@ msgstr "Округлення часу"
 #: model:ir.model.fields.selection,name:sale_timesheet_rounded.selection__project_project__timesheet_rounding_method__up
 msgid "Up"
 msgstr "Вгору"
+
+#. module: sale_timesheet_rounded
+#: model_terms:ir.ui.view,arch_db:sale_timesheet_rounded.account_analytic_line_kanban_inherit
+msgid ""
+"<br/>\n"
+"                <strong>Rounded: </strong>"
+msgstr ""
+"<br/>\n"
+"                <strong>Округлено: </strong>"
+
+#. module: sale_timesheet_rounded
+#: model_terms:ir.ui.view,arch_db:sale_timesheet_rounded.hr_timesheet_view_task_form2_inherited_inherit
+msgid "Duration (rounded)"
+msgstr "Тривалість (округлена)"
+
+#. module: sale_timesheet_rounded
+#: model_terms:ir.ui.view,arch_db:sale_timesheet_rounded.view_account_analytic_line_form_inherit
+msgid "Quantity Rounded"
+msgstr "Округлена кількість"
+
+#. module: sale_timesheet_rounded
+#: model:ir.model.fields,field_description:sale_timesheet_rounded.field_project_project__timesheet_rounding_factor
+msgid "Timesheet rounding factor in percentage"
+msgstr "Коефіцієнт округлення табелів у відсотках"
+
+#. module: sale_timesheet_rounded
+#: model_terms:ir.ui.view,arch_db:sale_timesheet_rounded.account_analytic_line_tree_inherit
+msgid "Total quantity rounded"
+msgstr "Загальна округлена кількість"
