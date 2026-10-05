@@ -53,3 +53,9 @@ msgstr "Вирівнювання табелів часу"
 #: model:ir.model.fields,help:hr_timesheet_calendar.field_res_config_settings__timesheet_alignment
 msgid "Choose the alignment of new timesheet entries without start time."
 msgstr "Виберіть вирівнювання нових записів табеля без часу початку."
+
+#. module: hr_timesheet_calendar
+#. odoo-javascript
+#: code:addons/hr_timesheet_calendar/static/src/views/timesheet_calendar/timesheet_calendar_controller.esm.js:0
+msgid "New Timesheet Entry"
+msgstr "Новий запис табеля"

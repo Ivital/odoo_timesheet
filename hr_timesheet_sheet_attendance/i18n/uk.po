@@ -64,3 +64,36 @@ msgstr "Активності табеля часу"
 #: model:ir.model.fields,field_description:hr_timesheet_sheet_attendance.field_hr_timesheet_sheet__total_attendance
 msgid "Total Attendance"
 msgstr "Загальна відвідуваність"
+
+#. module: hr_timesheet_sheet_attendance
+#. odoo-python
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_timesheet_sheet.py:0
+msgid ""
+"The timesheet cannot be validated as it does not contain an equal number of "
+"sign ins and sign outs."
+msgstr ""
+"Табель не можна підтвердити, оскільки кількість входів і виходів не "
+"збігається."
+
+#. module: hr_timesheet_sheet_attendance
+#. odoo-python
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py:0
+msgid ""
+"You can not enter an attendance date outside the current timesheet dates."
+msgstr "Не можна вводити дату відвідування поза датами поточного табеля."
+
+#. module: hr_timesheet_sheet_attendance
+#. odoo-python
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py:0
+msgid ""
+"You can not enter an attendance in a submitted timesheet. Ask your manager "
+"to reset it before adding attendance."
+msgstr ""
+"Не можна вводити відвідування у поданий табель. Попросіть керівника скинути "
+"його перед додаванням відвідування."
+
+#. module: hr_timesheet_sheet_attendance
+#. odoo-python
+#: code:addons/hr_timesheet_sheet_attendance/models/hr_attendance.py:0
+msgid "You cannot modify an entry in a confirmed timesheet"
+msgstr "Не можна змінювати запис у підтвердженому табелі"

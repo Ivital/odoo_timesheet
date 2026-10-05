@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_timesheet_sheet_policy_department_manager.selection__res_company__timesheet_sheet_review_policy__department_manager
 msgid "By Department Manager"
 msgstr "За керівником відділу"
+
+#. module: hr_timesheet_sheet_policy_department_manager
+#. odoo-python
+#: code:addons/hr_timesheet_sheet_policy_department_manager/models/hr_timesheet_sheet.py:0
+msgid "Only a Department's Manager can review the sheet."
+msgstr "Лише керівник відділу може переглядати аркуш."

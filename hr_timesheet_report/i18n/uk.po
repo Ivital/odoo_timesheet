@@ -435,3 +435,39 @@ msgstr "Поле звіту табелів HR (групування)"
 #: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_group
 msgid "HR Timesheet Report group"
 msgstr "Група звіту табелів HR"
+
+#. module: hr_timesheet_report
+#. odoo-python
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
+msgid "\"%(report_name)s\" report with \"%(report_type)s\" type not found"
+msgstr "Звіт «%(report_name)s» типу «%(report_type)s» не знайдено"
+
+#. module: hr_timesheet_report
+#. odoo-python
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
+msgid "\"%(report_type)s\" report type is not supported"
+msgstr "Тип звіту «%(report_type)s» не підтримується"
+
+#. module: hr_timesheet_report
+#. odoo-python
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
+msgid "%(field_title)s not set"
+msgstr "%(field_title)s не задано"
+
+#. module: hr_timesheet_report
+#. odoo-python
+#: code:addons/hr_timesheet_report/wizards/hr_timesheet_report_wizard.py:0
+msgid "At least one Details field must be specified!"
+msgstr "Потрібно вказати щонайменше одне поле деталей!"
+
+#. module: hr_timesheet_report
+#. odoo-python
+#: code:addons/hr_timesheet_report/wizards/hr_timesheet_report_wizard.py:0
+msgid "At least one field must be listed in Details Fields"
+msgstr "У полях деталей потрібно вказати щонайменше одне поле"
+
+#. module: hr_timesheet_report
+#. odoo-python
+#: code:addons/hr_timesheet_report/report/hr_timesheet_report.py:0
+msgid "Report %(num)s"
+msgstr "Звіт %(num)s"

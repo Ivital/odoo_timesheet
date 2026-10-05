@@ -23,3 +23,22 @@ msgstr "Проєкт"
 #: model:ir.model.fields.selection,name:hr_timesheet_sheet_policy_project_manager.selection__res_company__timesheet_sheet_review_policy__project_manager
 msgid "By Project Manager"
 msgstr "За керівником проєкту"
+
+#. module: hr_timesheet_sheet_policy_project_manager
+#. odoo-python
+#: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py:0
+msgid "Only a Project Manager can review the sheet."
+msgstr "Лише керівник проєкту може переглядати аркуш."
+
+#. module: hr_timesheet_sheet_policy_project_manager
+#. odoo-python
+#: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py:0
+msgid "Review policy \"By Project Manager\" requires Project to be set"
+msgstr "Політика перегляду «Керівником проєкту» вимагає вказати проєкт"
+
+#. module: hr_timesheet_sheet_policy_project_manager
+#. odoo-python
+#: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py:0
+msgid ""
+"The Company in the Timesheet Sheet and in the Project must be the same."
+msgstr "Компанія в табелі часу та в проєкті має бути однаковою."

@@ -32,3 +32,13 @@ msgstr "Виключити табелі із замовлення на прод�
 #: model:res.groups,comment:sale_timesheet_line_exclude.group_exclude_from_sale_order
 msgid "Gives access to the Non-Billable field on timesheets."
 msgstr "Надає доступ до поля «Неоплачуване» в табелях."
+
+#. module: sale_timesheet_line_exclude
+#. odoo-python
+#: code:addons/sale_timesheet_line_exclude/models/account_analytic_line.py:0
+msgid ""
+"You can not modify timesheets in a way that would affect invoices since "
+"these timesheets were already invoiced."
+msgstr ""
+"Не можна змінювати табелі так, щоб це впливало на рахунки, оскільки за цими "
+"табелями вже виставлено рахунки."

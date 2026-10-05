@@ -155,3 +155,13 @@ msgid ""
 msgstr ""
 "Напишіть код Python, що визначає, коли має виникати це попередження. "
 "Результат виконання виразу має бути булевим."
+
+#. module: hr_timesheet_sheet_warning
+#. odoo-python
+#: code:addons/hr_timesheet_sheet_warning/models/hr_timesheet_sheet_warning_definition.py:0
+msgid ""
+"Error evaluating %(name)s.\n"
+" %(error)s"
+msgstr ""
+"Помилка обчислення %(name)s.\n"
+" %(error)s"

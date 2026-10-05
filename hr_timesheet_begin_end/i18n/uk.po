@@ -22,3 +22,22 @@ msgstr "Година початку"
 #: model:ir.model.fields,field_description:hr_timesheet_begin_end.field_account_analytic_line__time_stop
 msgid "End Hour"
 msgstr "Година завершення"
+
+#. module: hr_timesheet_begin_end
+#. odoo-python
+#: code:addons/hr_timesheet_begin_end/models/account_analytic_line.py:0
+msgid ""
+"The beginning hour (%(html_start)s) must precede the ending hour "
+"(%(html_stop)s)."
+msgstr ""
+"Час початку (%(html_start)s) має передувати часу завершення (%(html_stop)s)."
+
+#. module: hr_timesheet_begin_end
+#. odoo-python
+#: code:addons/hr_timesheet_begin_end/models/account_analytic_line.py:0
+msgid ""
+"The duration (%(html_unit_amount)s) must be equal to the difference between "
+"the hours (%(html_hours)s)."
+msgstr ""
+"Тривалість (%(html_unit_amount)s) має дорівнювати різниці між годинами "
+"(%(html_hours)s)."

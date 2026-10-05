@@ -148,21 +148,21 @@ msgstr "Може перевіряти"
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "Cannot approve a non-submitted sheet."
-msgstr ""
+msgstr "Не можна схвалити неподаний табель."
 
 #. module: hr_timesheet_sheet
 #. odoo-python
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "Cannot reject a non-submitted sheet."
-msgstr ""
+msgstr "Не можна відхилити неподаний табель."
 
 #. module: hr_timesheet_sheet
 #. odoo-python
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "Cannot revert to draft a non-approved sheet."
-msgstr ""
+msgstr "Не можна повернути непогоджений аркуш до чернетки."
 
 #. module: hr_timesheet_sheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet.res_config_settings_view_form
@@ -794,7 +794,7 @@ msgstr "Пошук табелю"
 #, python-format
 msgid ""
 "The Company in the Timesheet Sheet and in the Department must be the same."
-msgstr ""
+msgstr "Компанія в аркуші табеля та у відділі має збігатися."
 
 #. module: hr_timesheet_sheet
 #. odoo-python
@@ -802,7 +802,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The Company in the Timesheet Sheet and in the Employee must be the same."
-msgstr ""
+msgstr "Компанія в аркуші табеля та у працівника має збігатися."
 
 #. module: hr_timesheet_sheet
 #. odoo-python
@@ -810,14 +810,14 @@ msgstr ""
 #, python-format
 msgid ""
 "The Company in the Timesheet Sheet and in the Project must be the same."
-msgstr ""
+msgstr "Компанія в табелі часу та в проєкті має бути однаковою."
 
 #. module: hr_timesheet_sheet
 #. odoo-python
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "The Company in the Timesheet Sheet and in the Task must be the same."
-msgstr ""
+msgstr "Компанія в аркуші табеля та в завданні має збігатися."
 
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,help:hr_timesheet_sheet.field_res_company__sheet_range
@@ -1056,7 +1056,7 @@ msgstr "Тиждень"
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "Week %(end)s"
-msgstr ""
+msgstr "Тиждень %(end)s"
 
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,field_description:hr_timesheet_sheet.field_res_config_settings__timesheet_week_start
@@ -1073,7 +1073,7 @@ msgstr "День початку тижня"
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "Weeks %(start)s - %(end)s"
-msgstr ""
+msgstr "Тижні %(start)s - %(end)s"
 
 #. module: hr_timesheet_sheet
 #. odoo-python
@@ -1097,6 +1097,9 @@ msgid ""
 " - %(sheet_name)s of %(sheet_company)s\n"
 " - %(name)s of %(company)s"
 msgstr ""
+"Не можна створити табель іншої компанії, ніж компанія аркуша табеля:\n"
+" - %(sheet_name)s компанії %(sheet_company)s\n"
+" - %(name)s компанії %(company)s"
 
 #. module: hr_timesheet_sheet
 #. odoo-python
@@ -1112,7 +1115,7 @@ msgstr "Ви не можете видалити табель, який повн�
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "You cannot duplicate a sheet."
-msgstr ""
+msgstr "Не можна дублювати табель."
 
 #. module: hr_timesheet_sheet
 #. odoo-python
@@ -1124,13 +1127,17 @@ msgid ""
 "Conflicting sheets:\n"
 " - %(names)s"
 msgstr ""
+"Не можна мати 2 або більше аркушів, що перекриваються!\n"
+"Використовуйте меню «Аркуш табеля», щоб уникнути цієї проблеми.\n"
+"Конфліктні аркуші:\n"
+" - %(names)s"
 
 #. module: hr_timesheet_sheet
 #. odoo-python
 #: code:addons/hr_timesheet_sheet/models/account_analytic_line.py:0
 #, python-format
 msgid "You cannot modify an entry in a confirmed timesheet sheet: %(names)s"
-msgstr ""
+msgstr "Не можна змінювати запис у підтвердженому аркуші табеля: %(names)s"
 
 #. module: hr_timesheet_sheet
 #: model_terms:ir.actions.act_window,help:hr_timesheet_sheet.act_hr_timesheet_line_to_submit_my
@@ -1168,6 +1175,22 @@ msgstr "Табелі обліку часу, активності"
 #: model:ir.model.fields,field_description:hr_timesheet_sheet.field_hr_timesheet_sheet__rating_ids
 msgid "Ratings"
 msgstr "Рейтинги"
+
+#. module: hr_timesheet_sheet
+#. odoo-python
+#: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:0
+msgid "Please enter start and end date"
+msgstr "Введіть дату початку й завершення"
+
+#. module: hr_timesheet_sheet
+#. odoo-python
+#: code:addons/hr_timesheet_sheet/models/account_analytic_line.py:0
+msgid ""
+"You cannot modify timesheets that are linked to     time off requests.\n"
+"    Please use the Time Off application to modify your time off requests instead."
+msgstr ""
+"Не можна змінювати табелі, пов’язані із запитами на відпустку.\n"
+"Використовуйте застосунок «Відпустки» для зміни запитів на відпустку."
 
 #, fuzzy
 #~ msgid "Number of unread messages"

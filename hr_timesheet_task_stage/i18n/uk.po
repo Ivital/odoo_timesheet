@@ -37,3 +37,16 @@ msgstr "<span class=\"text-danger\">Закрито</span>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_form
 msgid "<span class=\"text-success\">Open</span>"
 msgstr "<span class=\"text-success\">Відкрито</span>"
+
+#. module: hr_timesheet_task_stage
+#. odoo-python
+#: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py:0
+msgid "There isn't any stage with \"Closed\" checked. Please mark any."
+msgstr "Немає жодного етапу з позначкою «Закрито». Позначте один."
+
+#. module: hr_timesheet_task_stage
+#. odoo-python
+#: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py:0
+msgid "There isn't any stage with \"Closed\" unchecked. Please unmark any."
+msgstr ""
+"Немає жодного етапу без позначки «Закрито». Зніміть позначку з будь-якого."
