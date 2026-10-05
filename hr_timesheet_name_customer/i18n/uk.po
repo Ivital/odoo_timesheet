@@ -22,3 +22,8 @@ msgstr "Проєкт"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_name_customer.report_timesheet_custom
 msgid "Timesheets"
 msgstr "Табелі"
+
+#. module: hr_timesheet_name_customer
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_name_customer.report_timesheet_custom
+msgid "for the"
+msgstr "для"

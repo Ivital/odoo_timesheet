@@ -203,3 +203,158 @@ msgstr "Тип"
 #: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard_field_grouping__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Проміжний підсумок</strong>"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__line_ids
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_entry__any_line_id
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard__line_ids
+msgid "Account Analytics Lines"
+msgstr "Аналітичні рядки рахунку"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.hr_timesheet_report_wizard_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_field_entry__cell_classes
+msgid "Cell classes"
+msgstr "Класи комірки"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "Departments:"
+msgstr "Відділи:"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard__entry_field_ids
+msgid "Details Fields"
+msgstr "Поля деталей"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__employee_category_ids
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard__employee_category_ids
+msgid "Employee Tags"
+msgstr "Теги працівника"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "Employee Tags:"
+msgstr "Теги працівника:"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "Employees:"
+msgstr "Працівники:"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__entry_field_ids
+msgid "Entry Fields"
+msgstr "Поля проведення"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.hr_timesheet_report_wizard_form
+msgid "Export to PDF"
+msgstr "Експортувати в PDF"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.hr_timesheet_report_wizard_form
+msgid "Export to XLSX"
+msgstr "Експортувати в XLSX"
+
+#. module: hr_timesheet_report
+#: model:ir.actions.act_window,name:hr_timesheet_report.action_timesheet_report_wizard
+#: model:ir.actions.server,name:hr_timesheet_report.action_timesheet_report_wizard_from_selection
+msgid "Generate Timesheet Report"
+msgstr "Згенерувати звіт табеля часу"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__groupby_field_ids
+msgid "Group-By Fields"
+msgstr "Поля групування"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_field__groupby
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_field_entry__groupby
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_field_groupby__groupby
+msgid "Group-by expression"
+msgstr "Вираз групування"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard__grouping_field_ids
+msgid "Grouping Fields"
+msgstr "Поля групування"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__write_uid
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_entry__write_uid
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_field_entry__write_uid
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_field_groupby__write_uid
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_group__write_uid
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard__write_uid
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard_field_details__write_uid
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard_field_grouping__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__write_date
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_entry__write_date
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_field_entry__write_date
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_field_groupby__write_date
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_group__write_date
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard__write_date
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard_field_details__write_date
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_wizard_field_grouping__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "Projects:"
+msgstr "Проєкти:"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "Tasks:"
+msgstr "Завдання:"
+
+#. module: hr_timesheet_report
+#: model:ir.actions.report,name:hr_timesheet_report.action_report_qweb_html
+#: model:ir.actions.report,name:hr_timesheet_report.action_report_qweb_pdf
+#: model:ir.actions.report,name:hr_timesheet_report.action_report_xlsx
+#: model:ir.model,name:hr_timesheet_report.model_report_hr_timesheet_report_report
+msgid "Timesheet Report"
+msgstr "Звіт табеля часу"
+
+#. module: hr_timesheet_report
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report__total_unit_amount
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_entry__total_unit_amount
+#: model:ir.model.fields,field_description:hr_timesheet_report.field_hr_timesheet_report_group__total_unit_amount
+msgid "Total Quantity"
+msgstr "Загальна кількість"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.hr_timesheet_report_wizard_form
+msgid "View"
+msgstr "Перегляд"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "on"
+msgstr "на"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "since"
+msgstr "відтоді"
+
+#. module: hr_timesheet_report
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
+msgid "until"
+msgstr "до"

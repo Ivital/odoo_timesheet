@@ -61,3 +61,8 @@ msgstr "Вівторок"
 #: model:ir.model.fields.selection,name:hr_timesheet_day_week.selection__timesheets_analysis_report__day_week__2
 msgid "Wednesday"
 msgstr "Середа"
+
+#. module: hr_timesheet_day_week
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_day_week.hr_timesheet_line_search
+msgid "Weekend"
+msgstr "Вихідні"

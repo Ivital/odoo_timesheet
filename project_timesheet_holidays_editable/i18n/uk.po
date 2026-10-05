@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields.selection,name:project_timesheet_holidays_editable.selection__hr_leave_type__timesheet_edit_level__all
 msgid "All"
 msgstr "Усі"
+
+#. module: project_timesheet_holidays_editable
+#: model:ir.model.fields.selection,name:project_timesheet_holidays_editable.selection__hr_leave_type__timesheet_edit_level__none
+msgid "None"
+msgstr "Немає"
+
+#. module: project_timesheet_holidays_editable
+#: model:ir.model.fields.selection,name:project_timesheet_holidays_editable.selection__hr_leave_type__timesheet_edit_level__approver
+msgid "Officer"
+msgstr "Відповідальна особа"

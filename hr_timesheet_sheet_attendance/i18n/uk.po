@@ -44,3 +44,13 @@ msgstr "Аркуш"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_attendance.hr_timesheet_sheet_form
 msgid "Timesheet"
 msgstr "Табель"
+
+#. module: hr_timesheet_sheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_attendance.field_hr_timesheet_sheet__attendance_count
+msgid "Attendance Count"
+msgstr "Кількість відвідувань"
+
+#. module: hr_timesheet_sheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_attendance.field_hr_timesheet_sheet__attendance_state
+msgid "Current Status"
+msgstr "Поточний статус"

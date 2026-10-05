@@ -66,3 +66,26 @@ msgstr "Аркуш"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_warning.hr_timesheet_sheet_form
 msgid "Warnings"
 msgstr "Попередження"
+
+#. module: hr_timesheet_sheet_warning
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_warning.hr_timesheet_sheet_warning_definition_form
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_warning.hr_timesheet_sheet_warning_definition_search
+msgid "Inactive"
+msgstr "Неактивний"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__write_uid
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_item__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__write_date
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_item__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: hr_timesheet_sheet_warning
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_warning.view_hr_timesheet_sheet_filter
+msgid "With Warnings"
+msgstr "З попередженнями"

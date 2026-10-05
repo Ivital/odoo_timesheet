@@ -50,3 +50,28 @@ msgstr "Назва"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_time_type.view_project_time_type_form
 msgid "Time Type"
 msgstr "Тип часу"
+
+#. module: hr_timesheet_time_type
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_time_type.view_project_time_type_form
+msgid "Description..."
+msgstr "Опис..."
+
+#. module: hr_timesheet_time_type
+#: model:ir.model.fields,field_description:hr_timesheet_time_type.field_project_time_type__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: hr_timesheet_time_type
+#: model:ir.model.fields,field_description:hr_timesheet_time_type.field_project_time_type__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: hr_timesheet_time_type
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_time_type.view_project_time_type_form
+msgid "Task Activity"
+msgstr "Активність завдання"
+
+#. module: hr_timesheet_time_type
+#: model:ir.model.fields,field_description:hr_timesheet_time_type.field_account_analytic_line__time_type_name
+msgid "Time Type Name"
+msgstr "Назва типу часу"
