@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: hr_timesheet_sheet_attendance
+#: model:ir.actions.act_window,name:hr_timesheet_sheet_attendance.hr_timesheet_sheet_action_sheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_attendance.field_hr_timesheet_sheet__attendances_ids
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_attendance.hr_timesheet_sheet_form
+msgid "Attendances"
+msgstr "Відвідуваність"
+
+#. module: hr_timesheet_sheet_attendance
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_attendance.hr_timesheet_sheet_form
+msgid "Check In"
+msgstr "Реєстрація входу"
+
+#. module: hr_timesheet_sheet_attendance
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_attendance.hr_timesheet_sheet_form
+msgid "Check Out"
+msgstr "Реєстрація виходу"
+
+#. module: hr_timesheet_sheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_attendance.field_hr_timesheet_sheet__total_difference
+msgid "Difference"
+msgstr "Різниця"
+
+#. module: hr_timesheet_sheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_attendance.field_hr_attendance__sheet_id
+msgid "Sheet"
+msgstr "Аркуш"
+
+#. module: hr_timesheet_sheet_attendance
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_attendance.hr_timesheet_sheet_form
+msgid "Timesheet"
+msgstr "Табель"

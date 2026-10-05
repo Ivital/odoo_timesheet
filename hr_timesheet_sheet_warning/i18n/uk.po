@@ -12,3 +12,57 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_hr_timesheet_sheet_warning
 msgid "Timesheet Sheets, Activities"
 msgstr "Табелі обліку часу, активності"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_item__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__create_uid
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_item__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__create_date
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_item__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__name
+msgid "Description"
+msgstr "Опис"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__display_name
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_item__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_item__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.ui.menu,name:hr_timesheet_sheet_warning.timesheet_menu_settings
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,field_description:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_item__sheet_id
+msgid "Sheet"
+msgstr "Аркуш"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.ui.menu,name:hr_timesheet_sheet_warning.timesheet_menu_warning_definitions
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_warning.hr_timesheet_sheet_form
+msgid "Warnings"
+msgstr "Попередження"
