@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:project_timesheet_holidays_dynamic_description.field_hr_leave_type__dynamic_timesheet_description
 msgid "Dynamic Description"
 msgstr "Динамічний опис"
+
+#. module: project_timesheet_holidays_dynamic_description
+#: model:ir.model.fields,help:project_timesheet_holidays_dynamic_description.field_hr_leave_type__dynamic_timesheet_description
+msgid ""
+"If enabled, timesheets generated from time off will contains the leave "
+"description."
+msgstr ""
+"Якщо ввімкнено, табелі, створені з відгулів/відпусток, міститимуть опис "
+"відсутності."

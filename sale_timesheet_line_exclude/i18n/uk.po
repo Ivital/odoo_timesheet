@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_timesheet_line_exclude.field_account_analytic_line__exclude_from_sale_order
 msgid "Non-billable"
 msgstr "Неоплачуваний"
+
+#. module: sale_timesheet_line_exclude
+#: model:ir.model.fields,help:sale_timesheet_line_exclude.field_account_analytic_line__exclude_from_sale_order
+msgid "Checking this would exclude this timesheet entry from Sale Order"
+msgstr "Позначення виключить цей запис табеля із замовлення на продаж"
+
+#. module: sale_timesheet_line_exclude
+#: model:res.groups,name:sale_timesheet_line_exclude.group_exclude_from_sale_order
+msgid "Exclude timesheets from sale order"
+msgstr "Виключити табелі із замовлення на продаж"
+
+#. module: sale_timesheet_line_exclude
+#: model:res.groups,comment:sale_timesheet_line_exclude.group_exclude_from_sale_order
+msgid "Gives access to the Non-Billable field on timesheets."
+msgstr "Надає доступ до поля «Неоплачуване» в табелях."

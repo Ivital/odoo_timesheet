@@ -18,3 +18,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_timesheet_type_non_billable.field_project_time_type__non_billable
 msgid "Non Billable"
 msgstr "Не підлягає оплаті"
+
+#. module: hr_timesheet_type_non_billable
+#: model:ir.model,name:hr_timesheet_type_non_billable.model_project_time_type
+msgid "Define Time Types"
+msgstr "Визначити типи часу"

@@ -32,3 +32,12 @@ msgid ""
 msgstr ""
 "Автоматично створювати чернетку табеля часу, якщо запис створено, а аркуша "
 "за цей період немає"
+
+#. module: hr_timesheet_sheet_autodraft
+#: model:ir.model.fields,help:hr_timesheet_sheet_autodraft.field_res_config_settings__timesheet_sheets_autodraft
+msgid ""
+"Auto-draft Timesheet Sheets whenever a Timesheet entry is created or "
+"modified to ensure it's covered by a relevant Timesheet Sheet"
+msgstr ""
+"Автоматично переводити табелі в чернетку при створенні або зміні запису "
+"табеля, щоб він був охоплений відповідним табелем"

@@ -119,3 +119,18 @@ msgstr "<i class=\"fa fa-fw o_button_icon fa-history\"/> Історія варт
 #: model:ir.model.fields,field_description:hr_employee_cost_history.field_hr_employee__timesheet_cost_history_ids
 msgid "Timesheet Cost History"
 msgstr "Історія вартості табелів"
+
+#. module: hr_employee_cost_history
+#: model:ir.model.fields,help:hr_employee_cost_history.field_hr_employee_timesheet_cost_wizard__starting_date
+msgid "Change timesheet cost from this date onwards."
+msgstr "Змінити вартість табеля від цієї дати й далі."
+
+#. module: hr_employee_cost_history
+#: model:ir.model,name:hr_employee_cost_history.model_hr_employee_timesheet_cost_wizard
+msgid "Employee timesheet cost wizard"
+msgstr "Майстер вартості табелів працівника"
+
+#. module: hr_employee_cost_history
+#: model:ir.model.fields,help:hr_employee_cost_history.field_hr_employee_timesheet_cost_history__starting_date
+msgid "The cost change has effect since this date."
+msgstr "Зміна собівартості діє з цієї дати."

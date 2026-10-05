@@ -385,3 +385,53 @@ msgstr "Має рядки (технічне)"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_report.report
 msgid "selected entries"
 msgstr "вибрані записи"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report
+msgid "HR Timesheet Report"
+msgstr "Звіт табелів HR"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_wizard
+msgid "HR Timesheet Report Wizard"
+msgstr "Майстер звіту табелів HR"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_wizard_field
+msgid "HR Timesheet Report Wizard field"
+msgstr "Поле майстра звіту табелів HR"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_wizard_field_details
+msgid "HR Timesheet Report Wizard field (details)"
+msgstr "Поле майстра звіту табелів HR (деталі)"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_wizard_field_grouping
+msgid "HR Timesheet Report Wizard field (grouping)"
+msgstr "Поле майстра звіту табелів HR (групування)"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_entry
+msgid "HR Timesheet Report entry"
+msgstr "Запис звіту табелів HR"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_field
+msgid "HR Timesheet Report field"
+msgstr "Поле звіту табелів HR"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_field_entry
+msgid "HR Timesheet Report field (entry)"
+msgstr "Поле звіту табелів HR (запис)"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_field_groupby
+msgid "HR Timesheet Report field (groupby)"
+msgstr "Поле звіту табелів HR (групування)"
+
+#. module: hr_timesheet_report
+#: model:ir.model,name:hr_timesheet_report.model_hr_timesheet_report_group
+msgid "HR Timesheet Report group"
+msgstr "Група звіту табелів HR"

@@ -82,3 +82,18 @@ msgstr "Коефіцієнт округлення табелів у відсот
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_rounded.account_analytic_line_tree_inherit
 msgid "Total quantity rounded"
 msgstr "Загальна округлена кількість"
+
+#. module: sale_timesheet_rounded
+#: model:ir.model.fields,help:sale_timesheet_rounded.field_project_project__timesheet_rounding_method
+msgid ""
+"If you activate the rounding of timesheet lines, only new entries will be "
+"rounded (i.e. existing lines will not be rounded automatically)."
+msgstr ""
+"Якщо активувати округлення рядків табеля часу, округлюватимуться лише нові "
+"записи (тобто наявні рядки автоматично не округлюватимуться)."
+
+#. module: sale_timesheet_rounded
+#: model:ir.model.constraint,message:sale_timesheet_rounded.constraint_project_project_check_timesheet_rounding_factor
+msgid ""
+"Timesheet rounding factor should stay between 0 and 500, endpoints included."
+msgstr "Коефіцієнт округлення табеля має бути від 0 до 500 включно."

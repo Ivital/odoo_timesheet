@@ -48,3 +48,8 @@ msgstr "Почати наступний запис зараз або без пр
 #: model:ir.model.fields,field_description:hr_timesheet_calendar.field_res_config_settings__timesheet_alignment
 msgid "Timesheet Alignment"
 msgstr "Вирівнювання табелів часу"
+
+#. module: hr_timesheet_calendar
+#: model:ir.model.fields,help:hr_timesheet_calendar.field_res_config_settings__timesheet_alignment
+msgid "Choose the alignment of new timesheet entries without start time."
+msgstr "Виберіть вирівнювання нових записів табеля без часу початку."

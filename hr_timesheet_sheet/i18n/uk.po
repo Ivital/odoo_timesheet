@@ -411,6 +411,7 @@ msgid ""
 "If selected, the associated project is added to the timesheet sheet when "
 "clicked the button."
 msgstr ""
+"Якщо вибрано, пов’язаний проєкт додається до табеля після натискання кнопки."
 
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,help:hr_timesheet_sheet.field_hr_timesheet_sheet__add_line_task_id
@@ -418,6 +419,8 @@ msgid ""
 "If selected, the associated task is added to the timesheet sheet when "
 "clicked the button."
 msgstr ""
+"Якщо вибрано, пов’язане завдання додається до табеля після натискання "
+"кнопки."
 
 #. module: hr_timesheet_sheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
@@ -723,7 +726,7 @@ msgstr "Стан аркуша"
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,help:hr_timesheet_sheet.field_res_config_settings__timesheet_week_start
 msgid "Starting day for Timesheet Sheets."
-msgstr ""
+msgstr "Початковий день для табелів."
 
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,field_description:hr_timesheet_sheet.field_hr_timesheet_sheet__state
@@ -820,14 +823,14 @@ msgstr ""
 #: model:ir.model.fields,help:hr_timesheet_sheet.field_res_company__sheet_range
 #: model:ir.model.fields,help:hr_timesheet_sheet.field_res_config_settings__sheet_range
 msgid "The range of your Timesheet Sheet."
-msgstr ""
+msgstr "Діапазон вашого табеля обліку часу."
 
 #. module: hr_timesheet_sheet
 #. odoo-python
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "The start date cannot be later than the end date."
-msgstr ""
+msgstr "Дата початку не може бути пізнішою за дату завершення."
 
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields.selection,name:hr_timesheet_sheet.selection__res_company__timesheet_week_start__3
@@ -1082,6 +1085,8 @@ msgid ""
 "You cannot change the company, as this %(rec_name)s (%(rec_display_name)s) "
 "is assigned to %(current_name)s (%(current_display_name)s)."
 msgstr ""
+"Ви не можете змінити компанію, оскільки %(rec_name)s (%(rec_display_name)s) "
+"призначено %(current_name)s (%(current_display_name)s)."
 
 #. module: hr_timesheet_sheet
 #. odoo-python

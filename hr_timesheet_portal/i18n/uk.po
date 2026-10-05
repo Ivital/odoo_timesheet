@@ -17,3 +17,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_portal.portal_my_task
 msgid "Timesheets <i class=\"fa fa-plus\"/>"
 msgstr "Табелі <i class=\"fa fa-plus\"/>"
+
+#. module: hr_timesheet_portal
+#: model:res.groups,comment:hr_timesheet_portal.group_hr_timesheet_portal
+msgid "Add portal users who should be allowed to edit their timesheets"
+msgstr "Додати користувачів порталу, яким дозволено редагувати власні табелі"
+
+#. module: hr_timesheet_portal
+#: model:res.groups,name:hr_timesheet_portal.group_hr_timesheet_portal
+msgid "Editable timesheets"
+msgstr "Редаговані табелі"

@@ -124,3 +124,34 @@ msgstr "Вираз попередження"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_sheet_warning.view_hr_timesheet_sheet_filter
 msgid "Without Warnings"
 msgstr "Без попереджень"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,help:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__warning_domain
+msgid ""
+"Domain based on Timesheet Sheet, to define if the warning is applicable or "
+"not."
+msgstr "Домен на основі табеля, що визначає, чи застосовується попередження."
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model,name:hr_timesheet_sheet_warning.model_hr_timesheet_sheet_warning_definition
+msgid "Timesheet Sheet Warning Definition"
+msgstr "Визначення попередження табеля"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model,name:hr_timesheet_sheet_warning.model_hr_timesheet_sheet_warning_item
+msgid "Timesheet Sheet Warning Item"
+msgstr "Елемент попередження табеля"
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.constraint,message:hr_timesheet_sheet_warning.constraint_hr_timesheet_sheet_warning_item_unique_warning
+msgid "Timesheet warning has to be unique for timesheet sheet."
+msgstr "Попередження табеля має бути унікальним для аркуша табеля."
+
+#. module: hr_timesheet_sheet_warning
+#: model:ir.model.fields,help:hr_timesheet_sheet_warning.field_hr_timesheet_sheet_warning_definition__python_code
+msgid ""
+"Write Python code that defines when this warning should raise. The result of"
+" executing the expression must be a boolean."
+msgstr ""
+"Напишіть код Python, що визначає, коли має виникати це попередження. "
+"Результат виконання виразу має бути булевим."

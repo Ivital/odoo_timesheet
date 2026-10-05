@@ -59,3 +59,8 @@ msgstr "Зупинити роботу"
 #: model:ir.model.fields,field_description:crm_timesheet.field_crm_lead__show_time_control
 msgid "Show Time Control"
 msgstr "Показувати контроль часу"
+
+#. module: crm_timesheet
+#: model:ir.model.fields,help:crm_timesheet.field_crm_lead__show_time_control
+msgid "Indicate which time control button to show, if any."
+msgstr "Вказує, яку кнопку контролю часу показувати, якщо будь-яку."
